@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | News homepage</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+  
+  <link href="./styles.css" rel="stylesheet"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="container">
+    <div id="bookmarks">
+      <div id="logo"><img src="./assets/images/logo.svg" alt="logo"/></div>
+      <div class="bookmark" id="home">Home</div>
+      <div class="bookmark" id="new">New</div>
+      <div class="bookmark" id="popular">Popular</div>
+      <div class="bookmark" id="trending">Trending</div>
+      <div class="bookmark" id="categories">Categories</div>
+      <div id="menu"><img src="./assets/images/icon-menu.svg" alt="menu icon"/></div>
+    </div>
+    <div id="main-photo"><img src="./assets/images/image-web-3-desktop.jpg" alt="web image"></div>
+    <div id="main-heading">
+      The Bright Future of Web 3.0?
+    </div>
+    <div id="main-description">
+      <div class="paragraph">
+        We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+        But is it really fulfilling its promise?
+      </div>
+      <div class="btn"><button>Read more</button></div>
+    </div>
+    <div id="news">
+      <div class="title">New</div>
+      <div class="news-article">
+        <div class="heading">Hydrogen VS Electric Cars</div>
+        <div class="description paragraph">Will hydrogen-fueled cars ever catch up to EVs?</div>
+      </div>
+      <div class="news-article" id="middle-article">
+        <div class="heading">The Downsides of AI Artistry</div>
+        <div class="description paragraph">What are the possible adverse effects of on-demand AI image generation?</div>
+      </div>
+      <div class="news-article">
+        <div class="heading">Is VC Funding Drying Up?</div>
+        <div class="description paragraph">Private funding by VC firms is down 50% YOY. We take a look at what that means.</div>
+      </div>
+    </div>
+
+    <div class="article" id="first">
+      <div class="aritcle-image"><img src="./assets/images/image-retro-pcs.jpg" alt="retro computer"/></div>
+      <div class="article-content">
+        <div class="number">01</div>
+        <div class="heading">Reviving Retro PCs</div> 
+        <div class="description paragraph">What happens when old PCs are given modern upgrades?</div>
+      </div>
+    </div>
+
+    <div class="article" id="second">
+      <div class="aritcle-image"><img src="./assets/images/image-top-laptops.jpg" alt="laptop keyboar"/></div>
+      <div class="article-content">
+        <div class="number">02</div>
+        <div class="heading">Top 10 Laptops of 2022</div> 
+        <div class="description paragraph">Our best picks for various needs and budgets.</div>
+      </div>
+    </div>
+
+    <div class="article" id="third">
+      <div class="aritcle-image"><img src="./assets/images/image-gaming-growth.jpg" alt="hand with gamepad"/></div>
+      <div class="article-content">
+        <div class="number">03</div>
+        <div class="heading">The Growth of Gaming</div> 
+        <div class="description paragraph">How the pandemic has sparked fresh opportunities.</div>
+      </div>
+    </div>
+
+
+    
+  </div>
+  <div class="shadow"></div>
+  <div id="mobile-menu">
+    <div class="mobile-menu-element" id="close-menu"><img src="./assets/images/icon-menu-close.svg" alt="close menu symbol"/></div>
+    <div class="mobile-menu-element" id="home-mobile">Home</div>
+    <div class="mobile-menu-element" id="new-mobile">New</div>
+    <div class="mobile-menu-element" id="popular-mobile">Popular</div>
+    <div class="mobile-menu-element" id="trending-mobile">Trending</div>
+    <div class="mobile-menu-element" id="categories-mobile">Categories</div>
+  </div>
+
+  <script
+  src="https://code.jquery.com/jquery-3.7.1.js"
+  integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+  crossorigin="anonymous"></script>
+  <script src="./index.js"></script>
+</body>
+</html>
